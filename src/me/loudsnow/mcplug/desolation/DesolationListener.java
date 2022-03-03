@@ -1,8 +1,12 @@
 package me.loudsnow.mcplug.desolation;
 
-
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.potion.PotionEffect;
+import org.bukkit.potion.PotionEffectType;
 import org.bukkit.ChatColor;
 import org.bukkit.attribute.Attribute;
+import org.bukkit.attribute.AttributeModifier;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -22,21 +26,22 @@ public class DesolationCommand implements CommandExecutor {
             ItemStack desolation = new ItemStack(Material.IRON_SWORD, 1);
             ItemMeta meta = desolation.getItemMeta();
             meta.setDisplayName("" + ChatColor.RED + ChatColor.BOLD + "Desolation");
-            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE,100.0);
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE,100);
+            meta.addEnchant(Enchantment.SWEEPING_EDGE , 3,false);
+            meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE,ItemFlag.HIDE_ENCHANTS,ItemFlag.HIDE_POTION_EFFECTS);
+            meta.isUnbreakable();
+                if(p.getItemInHand() != null){
+                    p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW_DIGGING,1000000000, 2));
+                    p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW,10000,1));
+                }
             List<String> lore = new ArrayList<>();
             lore.add("Everything is destroyed...");
             lore.add("            -???");
+            meta.setLore(lore);
             p.getInventory().addItem(desolation);
             return true;
-           //wut is this red sqaure here at line 23 it shows the color it means nothing okay i gtg ty for halp it should work thank u
-            // i hve no idea how to make the ability work xD k il work on it
-            // ok ill send it to u trmw wait dont leave yet i need to get this code over to my e
-            // ditor I alr know what you want
-            // add mining fatigue
-            // for slower attack speed
-            // Can you add it to the pull request ill try
-            // just copy paste into github? yea i think or or you can reupload 1 sec
         }
     return false;
     }
 }
+
