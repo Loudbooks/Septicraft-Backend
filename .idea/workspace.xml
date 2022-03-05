@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Loud and Snow's SMP:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a66c3e81-1ad4-4a0d-acfd-8fe6b52f1822" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/BankerSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/BankerSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/cancelevents/CancelBreakEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/cancelevents/CancelBreakEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/cancelevents/CancelPlaceEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/me/loudsnow/mcplug/cancelevents/CancelPlaceEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loud and Snow's SMP/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/BankerInventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/BankerSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/DeathEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/JoinEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/JoinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/PigKillTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/TraderSpawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/ArmorStandCancel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelBedEnter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelBreakEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelDropEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelFallDamage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelItemFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelPlaceEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelPortal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/cancelevents/CancelTnt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/desolation/DesolationCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/desolation/DesolationListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/hashmap/HashMaps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/meteorslam/MeteorSlamCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/meteorslam/MeteorSlamListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/BankerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/npcs/NPC7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/shadowleap/ShadowleapCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/shadowleap/ShadowleapListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/windstep/WindstepCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/windstep/WindstepListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="25aDxfvP2YqpbhnnWcbVscy4npw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/me/loudsnow/mcplug/shadowleap" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Loudbook\Desktop\SpigotPlugins\Loud and Snow's SMP\src\me\loudsnow\mcplug\shadowleap" />
+      <recent name="C:\Users\Loudbook\Desktop\SpigotPlugins\Loud and Snow's SMP\src\me\loudsnow\mcplug" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Loudbook\Desktop\SpigotPlugins\Loud and Snow's SMP\src" />
+      <recent name="C:\Users\Loudbook\Desktop\SpigotPlugins\Loud and Snow's SMP\src\me\loudsnow\mcplug\cancelevents" />
+      <recent name="C:\Users\Loudbook\Desktop\SpigotPlugins\Loud and Snow's SMP\src\me\loudsnow\mcplug" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BuildPlugin" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a66c3e81-1ad4-4a0d-acfd-8fe6b52f1822" name="Changes" comment="" />
+      <created>1645756554714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645756554714</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
