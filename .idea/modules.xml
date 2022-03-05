@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Loud and Snow's SMP.iml" filepath="$PROJECT_DIR$/Loud and Snow's SMP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Snowy-RPG-Plugin.iml" filepath="$PROJECT_DIR$/.idea/Snowy-RPG-Plugin.iml" />
     </modules>
   </component>
 </project>
