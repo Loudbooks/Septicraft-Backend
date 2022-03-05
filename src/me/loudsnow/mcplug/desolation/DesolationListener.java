@@ -34,9 +34,6 @@ public class DesolationListener implements Listener {
                 }
             }
         }
-        if (p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals("" + ChatColor.RED + ChatColor.BOLD + "Desolation")) {
-            p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 999999, 1));
-        }
     }
 }
 
