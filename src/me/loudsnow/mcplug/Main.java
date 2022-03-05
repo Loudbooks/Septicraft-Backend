@@ -14,6 +14,7 @@ import me.loudsnow.mcplug.desolation.DesolationCommand;
 import me.loudsnow.mcplug.desolation.DesolationListener;
 import me.loudsnow.mcplug.startersword.starterswordCommand;
 import me.loudsnow.mcplug.starterdagger.starterdaggerCommand;
+import me.loudsnow.mcplug.truedeso.truedesoCommand;
 
 import java.io.*;
 import java.util.HashMap;
