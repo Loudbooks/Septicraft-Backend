@@ -19,3 +19,16 @@ commands:
   getshadowleap:
     description: Get Shadowleap
     usage: /getshadowleap
+    
+   gettruedesolation:
+      description: Get Awakened Desolation
+      usage: /gettruedesolation
+      
+    getstarterdagger:
+      description: Get basic dagger
+      usage: /getbasicdagger
+   
+    getstartersword:
+      description: Get basic sword
+      usage: /getbasicsword
+   
