@@ -2,8 +2,6 @@ package me.loudsnow.mcplug.desolation;
 
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 import org.bukkit.ChatColor;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
@@ -42,8 +40,9 @@ public class DesolationCommand implements CommandExecutor {
                     // yes
                 }
             List<String> lore = new ArrayList<>();
-            lore.add("Everything is destroyed...");
-            lore.add("            -???");
+            lore.add("This sword is powerful,but my research says it's");
+            lore.add("an imperfect form. I wonder...");
+            lore.add("     -The Adventurer");
             meta.setLore(lore);
             p.getInventory().addItem(desolation);
             return true;
