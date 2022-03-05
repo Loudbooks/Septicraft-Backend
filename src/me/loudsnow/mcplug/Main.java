@@ -10,6 +10,8 @@ import me.loudsnow.mcplug.windstep.WindstepCommand;
 import me.loudsnow.mcplug.windstep.WindstepListener;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
+import me.loudsnow.mcplug.desolation.DesolationCommand;
+import me.loudsnow.mcplug.desolation.DesolationListener;
 
 import java.io.*;
 import java.util.HashMap;
@@ -51,8 +53,11 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MeteorSlamListener(), this);
         getServer().getPluginManager().registerEvents(new CancelBedEnter(), this);
         getServer().getPluginManager().registerEvents(new ShadowleapListener(), this);
-
-
+        this.getCommand("getdesolation").setExecutor(new DesolationCommand());
+        getServer().getPluginManager().registerEvents(new DesolationListener(), this);
+        this.getCommand("gettruedeso").setExecutor(new trueDesoCommand());
+        this.getCommand("getstartersword").setExecutor(new starterswordCommand());
+        this.getCommand("getstarterdagger").setExecutor(new starterdaggerCommand());
 
 
 
