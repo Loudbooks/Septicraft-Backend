@@ -24,11 +24,11 @@ public class starterswordCommand implements CommandExecutor {
             Player p = (Player) sender;
             ItemStack basicsword = new ItemStack(Material.IRON_SWORD, 1);
             ItemMeta meta = basicsword.getItemMeta();
-            meta.setDisplayName("Basic Sword");
+            meta.setDisplayName(ChatColor.GRAY + "Basic Sword");
             meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackDamage", 8, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
             meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
             meta.isUnbreakable();
-            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals("Basic Sword")) {
+            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals(ChatColor.GRAY + "Basic Sword");) {
                 meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 1.8, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
             }
             List<String> lore = new ArrayList<>();
