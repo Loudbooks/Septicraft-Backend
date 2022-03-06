@@ -1,12 +1,18 @@
 package me.loudsnow.mcplug;
 
 import me.loudsnow.mcplug.cancelevents.*;
+import me.loudsnow.mcplug.desolation.DesolationAbilityListener;
 import me.loudsnow.mcplug.desolation.DesolationCommand;
+import me.loudsnow.mcplug.desolation.DesolationAttackListener;
 import me.loudsnow.mcplug.meteorslam.MeteorSlamCommand;
 import me.loudsnow.mcplug.meteorslam.MeteorSlamListener;
 import me.loudsnow.mcplug.npcs.*;
 import me.loudsnow.mcplug.shadowleap.ShadowleapCommand;
 import me.loudsnow.mcplug.shadowleap.ShadowleapListener;
+import me.loudsnow.mcplug.starterdagger.starterdaggerCommand;
+import me.loudsnow.mcplug.startersword.starterswordCommand;
+import me.loudsnow.mcplug.truedeso.trueDesoCommand;
+import me.loudsnow.mcplug.truedeso.trueDesoListener;
 import me.loudsnow.mcplug.windstep.WindstepCommand;
 import me.loudsnow.mcplug.windstep.WindstepListener;
 import org.bukkit.command.ConsoleCommandSender;
@@ -27,6 +33,10 @@ public class Main extends JavaPlugin {
     public static HashMap<String, Integer> hitground = new HashMap<>();
     public static HashMap<String, Integer> cd3 = new HashMap<>();
     public static HashMap<String, Integer> boolea = new HashMap<>();
+    public static HashMap<String, Integer> cd4 = new HashMap<>();
+    public static HashMap<String, Integer> cd5 = new HashMap<>();
+    public static HashMap<String, Integer> cd6 = new HashMap<>();
+    public static boolean desolationdmg = false;
 
 
 
@@ -58,7 +68,13 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new CancelBedEnter(), this);
         getServer().getPluginManager().registerEvents(new ShadowleapListener(), this);
         getServer().getPluginManager().registerEvents(new TrainingDummy(), this);
-
+        this.getCommand("getdesolation").setExecutor(new DesolationCommand());
+        getServer().getPluginManager().registerEvents(new DesolationAttackListener(), this);
+        getServer().getPluginManager().registerEvents(new DesolationAbilityListener(), this);
+        this.getCommand("gettruedesolation").setExecutor(new trueDesoCommand());
+        this.getCommand("getstarterdagger").setExecutor(new starterdaggerCommand());
+        this.getCommand("getstartersword").setExecutor(new starterswordCommand());
+        getServer().getPluginManager().registerEvents(new trueDesoListener(), this);
 
 
 

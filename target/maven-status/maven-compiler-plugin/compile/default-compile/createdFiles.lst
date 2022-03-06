@@ -1,13 +1,14 @@
+me\loudsnow\mcplug\truedeso\trueDesoListener.class
 me\loudsnow\mcplug\npcs\NPC5.class
 me\loudsnow\mcplug\cancelevents\CancelBreakEvent.class
 me\loudsnow\mcplug\TraderSpawn.class
 me\loudsnow\mcplug\starterdagger\starterdaggerCommand.class
 me\loudsnow\mcplug\npcs\NPC7.class
 me\loudsnow\mcplug\cancelevents\CancelItemFrame.class
-me\loudsnow\mcplug\desolation\DesolationListener.class
 me\loudsnow\mcplug\npcs\NPC2.class
 me\loudsnow\mcplug\meteorslam\MeteorSlamListener.class
 me\loudsnow\mcplug\truedeso\trueDesoCommand.class
+me\loudsnow\mcplug\desolation\DesolationAbilityListener.class
 me\loudsnow\mcplug\hashmap\HashMaps.class
 me\loudsnow\mcplug\npcs\NPC3.class
 me\loudsnow\mcplug\windstep\WindstepListener$1.class
@@ -21,9 +22,11 @@ me\loudsnow\mcplug\meteorslam\MeteorSlamListener$1.class
 me\loudsnow\mcplug\cancelevents\CancelTnt.class
 me\loudsnow\mcplug\meteorslam\MeteorSlamListener$2.class
 me\loudsnow\mcplug\startersword\starterswordCommand.class
+me\loudsnow\mcplug\desolation\DesolationAttackListener.class
 me\loudsnow\mcplug\windstep\WindstepListener.class
 me\loudsnow\mcplug\cancelevents\CancelFallDamage.class
 me\loudsnow\mcplug\PigKillTest.class
+me\loudsnow\mcplug\desolation\DesolationAttackListener$1.class
 me\loudsnow\mcplug\npcs\NPC6.class
 me\loudsnow\mcplug\Main.class
 me\loudsnow\mcplug\BankerHash.class
@@ -38,5 +41,6 @@ me\loudsnow\mcplug\desolation\DesolationCommand.class
 me\loudsnow\mcplug\TrainingDummy.class
 me\loudsnow\mcplug\JoinEvent.class
 me\loudsnow\mcplug\windstep\WindstepCommand.class
+me\loudsnow\mcplug\desolation\DesolationAbilityListener$1.class
 me\loudsnow\mcplug\npcs\NPC4.class
 me\loudsnow\mcplug\TrainingDummy$1.class

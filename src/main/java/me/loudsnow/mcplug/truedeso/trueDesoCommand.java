@@ -1,6 +1,7 @@
 package me.loudsnow.mcplug.truedeso;
 
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.ChatColor;
 import org.bukkit.attribute.Attribute;
@@ -22,24 +23,25 @@ public class trueDesoCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
-
-            Player p = (Player) sender;
             ItemStack truedesolation = new ItemStack(Material.GOLDEN_SWORD, 1);
+            Player p = (Player) sender;
             ItemMeta meta = truedesolation.getItemMeta();
             meta.setDisplayName("" + ChatColor.RED + ChatColor.BOLD + "Awakened Desolation");
             meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 100, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-            meta.addEnchant(Enchantment.SWEEPING_EDGE , 5,false);
-            meta.addEnchant(Enchantment.FIRE_ASPECT , 3,false);
-            meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE,ItemFlag.HIDE_ENCHANTS,ItemFlag.HIDE_POTION_EFFECTS);
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", -3, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
+
+            meta.addEnchant(Enchantment.SWEEPING_EDGE , 5,true);
+            meta.addEnchant(Enchantment.FIRE_ASPECT , 3,true);
+            meta.addItemFlags(ItemFlag.HIDE_ENCHANTS, ItemFlag.HIDE_UNBREAKABLE);
             meta.isUnbreakable();
-            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals("" + ChatColor.RED + ChatColor.BOLD + "Awakened Desolation")) {
-                meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", -3, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-            }
             List<String> lore = new ArrayList<>();
-            lore.add(""+ChatColor.DARK_RED+"The sword that precedes time itself.Its true power has");
+            lore.add(""+ChatColor.DARK_RED+"The sword that precedes time itself. Its true power has");
             lore.add(""+ChatColor.DARK_RED+"finally been unleashed.");
             meta.setLore(lore);
+
+            truedesolation.setItemMeta(meta);
             p.getInventory().addItem(truedesolation);
+
             return true;
 
         }

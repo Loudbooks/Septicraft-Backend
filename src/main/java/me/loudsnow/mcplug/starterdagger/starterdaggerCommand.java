@@ -25,14 +25,13 @@ public class starterdaggerCommand implements CommandExecutor {
             ItemMeta meta = basicdagger.getItemMeta();
             meta.setDisplayName("Basic Dagger");
             meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackDamage", 4, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 2.25, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
             meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
             meta.isUnbreakable();
-            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals("Basic Dagger")) {
-                meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 20, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-            }
             List<String> lore = new ArrayList<>();
             lore.add("It's a solid starter weapon!");
             meta.setLore(lore);
+            basicdagger.setItemMeta(meta);
             p.getInventory().addItem(basicdagger);
             return true;
 

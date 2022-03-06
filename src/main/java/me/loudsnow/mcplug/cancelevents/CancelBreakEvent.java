@@ -17,8 +17,8 @@ public class CancelBreakEvent implements Listener {
         }
         else if (player.getDisplayName().equals("SnowedSeal")) {
         }
-        //else if (player.getDisplayName().equals("Milkshake578")) {
-        //}
+        else if (player.getDisplayName().equals("Milkshake578")) {
+        }
         else if (player.getDisplayName().equals("lionylev")) {
         }
         else if (player.getDisplayName().equals("_Hyperbeam_")) {

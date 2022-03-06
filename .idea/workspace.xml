@@ -10,18 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a66c3e81-1ad4-4a0d-acfd-8fe6b52f1822" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/desolation/DesolationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/desolation/DesolationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/desolation/DesolationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/desolation/DesolationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/desolation/DesolationCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/desolation/DesolationListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/starterdagger/starterdaggerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/starterdagger/starterdaggerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/startersword/starterswordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/startersword/starterswordCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/loudsnow/mcplug/truedeso/trueDesoCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/truedeso/trueDesoCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/loudsnow/mcplug/desolation/DesolationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/loudsnow/mcplug/desolation/DesolationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/loudsnow/mcplug/desolation/DesolationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/loudsnow/mcplug/desolation/DesolationListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/DeathEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/loudsnow/mcplug/DeathEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +63,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/me/loudsnow/mcplug/shadowleap" />
     <property name="project.structure.last.edited" value="Project" />

@@ -12,8 +12,9 @@ import java.net.http.WebSocket;
 public class DeathEvent implements Listener {
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event){
+        Player p = event.getEntity();
         String name = event.getEntity().getName();
         event.setKeepInventory(true);
-        event.setDeathMessage("" + ChatColor.RED + ChatColor.BOLD + name + " died! Feel bad for them! :(");
+        event.setDeathMessage("" + ChatColor.RED + ChatColor.BOLD + name + " died!");
     }
 }

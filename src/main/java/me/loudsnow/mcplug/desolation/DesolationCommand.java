@@ -26,24 +26,23 @@ public class DesolationCommand implements CommandExecutor {
             ItemStack desolation = new ItemStack(Material.IRON_SWORD, 1);
             ItemMeta meta = desolation.getItemMeta();
             meta.setDisplayName("" + ChatColor.RED + ChatColor.BOLD + "Desolation");
-            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 50, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-            // no error
-            // eeee
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackDamage", 50, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
+
             meta.addEnchant(Enchantment.SWEEPING_EDGE , 3,false);
-            meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE,ItemFlag.HIDE_ENCHANTS,ItemFlag.HIDE_POTION_EFFECTS);
+            meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE,ItemFlag.HIDE_ENCHANTS);
             meta.isUnbreakable();
-            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals("" + ChatColor.RED + ChatColor.BOLD + "Desolation")) {
-                meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 20, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-                // do i have full perms
-                // i think so yeah
-                // can you make a new class in this folder named DesolationListener
-                // yes
-            }
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", -3.5, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
+
             List<String> lore = new ArrayList<>();
-            lore.add("This sword is powerful,but my research says it's");
-            lore.add("an imperfect form. I wonder...");
-            lore.add("     -The Adventurer");
+            lore.add("20 Second Cooldown");
+            lore.add("" + ChatColor.YELLOW + ChatColor.BOLD + "Right click to activate Desolation's true power.");
+            lore.add("" + ChatColor.YELLOW + "Increases your damage and your attack speed.");
+            lore.add("");
+            lore.add(ChatColor.DARK_GRAY + "This sword is powerful, but my research says it's");
+            lore.add(ChatColor.DARK_GRAY + "an imperfect form. I wonder...");
+            lore.add(ChatColor.DARK_GRAY + "            -The Adventurer");
             meta.setLore(lore);
+            desolation.setItemMeta(meta);
             p.getInventory().addItem(desolation);
             return true;
 

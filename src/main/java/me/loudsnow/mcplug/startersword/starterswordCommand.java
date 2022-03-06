@@ -27,14 +27,13 @@ public class starterswordCommand implements CommandExecutor {
             ItemMeta meta = basicsword.getItemMeta();
             meta.setDisplayName(ChatColor.GRAY + "Basic Sword");
             meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, new AttributeModifier(UUID.randomUUID(),  "generic.attackDamage", 8, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
+            meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", -0.5, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
             meta.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
             meta.isUnbreakable();
-            if(p.getItemInHand() != null && p.getItemInHand().getItemMeta().getDisplayName().equals(ChatColor.GRAY + "Basic Sword")) {
-                meta.addAttributeModifier(Attribute.GENERIC_ATTACK_SPEED, new AttributeModifier(UUID.randomUUID(),  "generic.attackSpeed", 1.8, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlot.HAND));
-            }
             List<String> lore = new ArrayList<>();
             lore.add("It's a solid starter weapon!");
             meta.setLore(lore);
+            basicsword.setItemMeta(meta);
             p.getInventory().addItem(basicsword);
             return true;
 
